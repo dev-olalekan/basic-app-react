@@ -1,0 +1,10 @@
+.btn{
+    /* background-color: rgb(117, 177, 90); */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(30, 255, 0); 
+    background-image: linear-gradient(to right, rgb(12, 94, 4) , rgb(146, 219, 155));
+}

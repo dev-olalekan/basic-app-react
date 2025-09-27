@@ -1,0 +1,40 @@
+.card{
+  border: 5px solid hsl(138, 64%, 60%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+  max-width: 250px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  display: inline-block;
+}
+
+.card .card-image{
+  max-width: 100%;
+  height: auto;
+  border-radius: 10%;
+  margin-top: 10px;
+}
+
+.card .card-title{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: hsl(130, 94%, 21%)
+}
+
+.card .card-text{
+  font-family: Arial, sans-serif;
+ color: hsl(130, 93%, 27%)
+}
+
+/* styling for studen */
+.student-card{
+  border: 5px solid hsl(217, 71%, 53%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+  max-width: 250px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  /* display: inline-block; */
+}
