@@ -38,3 +38,20 @@
   text-align: center;
   /* display: inline-block; */
 }
+
+.welcome-message{
+  font-size: 2.5rem;
+  background-color: green;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0;
+}
+
+
+.login-prompt{
+  font-size: 2.5rem;
+  background-color: red;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0;
+}
