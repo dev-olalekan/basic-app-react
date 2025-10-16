@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 /* function UserGreeting(props) {
 
     if (props.isLoggedin) {
@@ -26,4 +28,28 @@ function UserGreeting(props) {
     return props.isLoggedin ? WelcomMessage : LoginPrompt
 }
 
+
 export default UserGreeting;
+
+
+
+// this code below work for default props cos of thr react version
+
+/* function UserGreeting({ isLoggedin = false, username = "Guest no name" }) {
+
+
+    const WelcomeMessage = <h2 className="welcome-message">my name is {username}</h2>
+
+    const LoginPrompt = <h2 className="login-prompt">pls log in to continue</h2>
+
+    return isLoggedin ? WelcomeMessage : LoginPrompt
+}
+
+UserGreeting.propTypes = {
+    isLoggedin: PropTypes.bool.isRequired,
+    username: PropTypes.string.isRequired,
+}
+
+
+
+export default UserGreeting; */

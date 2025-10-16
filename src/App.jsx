@@ -14,7 +14,9 @@ function App() {
       <Student first="Smith" age={19} isStudent={true} />
       <Student lastname="Johnson" height={170} />
 
-      <UserGreeting isLoggedin={false} username="olamide" />
+      <UserGreeting isLoggedin={true} />
+
+      <UserGreeting isLoggedin={false} />
 
     </div>
   )
