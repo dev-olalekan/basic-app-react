@@ -1,4 +1,4 @@
-function UserGreeting(props) {
+/* function UserGreeting(props) {
 
     if (props.isLoggedin) {
 
@@ -14,4 +14,16 @@ function UserGreeting(props) {
     }
 }
 
-export default UserGreeting; 
+export default UserGreeting;  */
+
+function UserGreeting(props) {
+
+
+    const WelcomMessage = <h2 className="welcome-message">my name is {props.username}</h2>
+
+    const LoginPrompt = <h2 className="login-prompt">pls log in to continue</h2>
+
+    return props.isLoggedin ? WelcomMessage : LoginPrompt
+}
+
+export default UserGreeting;
