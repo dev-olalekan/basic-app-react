@@ -80,3 +80,33 @@
   color: hsla(0, 0%, 0%, 0.1);
   cursor: pointer;
 }
+
+/* for counter component */
+
+.counter-container{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.counter-display{
+  font-size: 3rem;
+  margin-top: 0;
+  margin-bottom: 50px;
+  color: hsl(217, 71%, 53%);
+}
+
+.counter-button{
+  width: 150px;
+  height: 50px;
+  font-size: 1.5rem;
+  margin: 0px 10px;
+  background-color: hsl(138, 64%, 60%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.counter-button:hover{
+  background-color: hsl(138, 64%, 50%);
+}

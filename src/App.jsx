@@ -6,6 +6,8 @@ import List from "./List"
 import Listing from "./Listing"
 import ClickingButton from "./Clickingbutton"
 import ClickingImage from "./Clickimage"
+import Hookings from "./Hookings"
+import Counter from "./Counter"
 
 function App() {
 
@@ -58,6 +60,12 @@ function App() {
 
       {/* for the click image */}
       <ClickingImage />
+
+      {/* for usestate hook */}
+      <Hookings />
+
+      {/* for */}
+      <Counter />
 
     </div>
   )

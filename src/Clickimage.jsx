@@ -5,7 +5,6 @@ function ClickingImage() {
 
     return (
         <div>
-            {/* <button onClick={}>click to change💕</button> */}
             <img src={imageurl} alt="" onClick={(e) => handleClick(e)} />
         </div>
     )
