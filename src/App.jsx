@@ -4,6 +4,8 @@ import Student from "./Student"
 import UserGreeting from "./Usergreeting"
 import List from "./List"
 import Listing from "./Listing"
+import ClickingButton from "./Clickingbutton"
+import ClickingImage from "./Clickimage"
 
 function App() {
 
@@ -50,6 +52,12 @@ function App() {
       {cars.length > 0 && <Listing items={cars} category="Cars" />}
 
 
+
+      {/* for click event */}
+      <ClickingButton />
+
+      {/* for the click image */}
+      <ClickingImage />
 
     </div>
   )
