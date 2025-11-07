@@ -8,6 +8,7 @@ import ClickingButton from "./Clickingbutton"
 import ClickingImage from "./Clickimage"
 import Hookings from "./Hookings"
 import Counter from "./Counter"
+import Change from "./Change"
 
 function App() {
 
@@ -66,6 +67,9 @@ function App() {
 
       {/* for */}
       <Counter />
+
+      {/* for onchange event */}
+      <Change />
 
     </div>
   )
