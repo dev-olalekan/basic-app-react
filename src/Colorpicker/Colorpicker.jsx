@@ -1,8 +1,9 @@
 import React, { useState } from "react";
+import styles from "./Colorpicker.module.css";
 
 function ColorPicker() {
 
-    const [color, setColor] = useState("#ffffff");
+    const [color, setColor] = useState("#43ae2d");
 
     function handleColorChange(event) {
         setColor(event.target.value);
@@ -10,9 +11,9 @@ function ColorPicker() {
 
 
     return (
-        <div className="color-picker-container">
+        <div className={styles.colorPickerContainer}>
             <h1>Color Picker</h1>
-            <div className="color-display" style={{ backgroundColor: color }}>
+            <div className={styles.colorDisplay} style={{ backgroundColor: color }}>
                 <p>Selected Color: {color}</p>
             </div>
 
