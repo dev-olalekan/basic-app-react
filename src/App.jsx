@@ -9,6 +9,7 @@ import ClickingImage from "./Clickimage"
 import Hookings from "./Hookings"
 import Counter from "./Counter"
 import Change from "./Change"
+import Colorpicker from "./Colorpicker"
 
 function App() {
 
@@ -70,6 +71,9 @@ function App() {
 
       {/* for onchange event */}
       <Change />
+
+      {/* for color picker */}
+      <Colorpicker />
 
     </div>
   )
