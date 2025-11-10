@@ -10,6 +10,7 @@ import Hookings from "./Hookings"
 import Counter from "./Counter"
 import Change from "./Change"
 import Colorpicker from "./Colorpicker/Colorpicker"
+import Stateupdate from "./Stateupdate"
 
 function App() {
 
@@ -74,6 +75,9 @@ function App() {
 
       {/* for color picker */}
       <Colorpicker />
+
+      {/* for state update */}
+      <Stateupdate />
 
     </div>
   )
